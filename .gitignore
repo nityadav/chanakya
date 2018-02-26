@@ -1,2 +1,29 @@
+# scala specific
 *.class
 *.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# package files #
+*.jar
+*.war
+*.ear
+
+# OSX specific
+.DS_Store
+
+# Intellij specific
+*.iml
+*.ipr
+*.iws
+.idea
+out
