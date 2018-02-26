@@ -2,6 +2,11 @@
 *.class
 *.log
 
+# python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
 # sbt specific
 .cache
 .history
